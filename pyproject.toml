@@ -7,7 +7,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-requests = "^2.32.2"
 uvicorn = "^0.29.0"
 wrapt = "^1.16.0"
 regex = "^2024.5.15"
