@@ -20,6 +20,11 @@ func main1() {
 	cgi.Serve(http.FileServer(http.Dir("/usr/share/doc")))
 }
 
+func main1() {
+	// ruleid: insecure-module-used
+	cgi.Serve(http.FileServer(http.Dir("/usr/share/doc")))
+}
+
 func main2() {
 	fmt.println("testing diff aware")
 
