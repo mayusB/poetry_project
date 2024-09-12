@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-20.04
     env:
       SEMGREP_APP_TOKEN: ${{ secrets.SEMGREP_APP_TOKEN }}
-      SEMGREP_BRANCH_NAME: refs/heads/test
+      SEMGREP_BRANCH: refs/heads/master
     container:
       image: returntocorp/semgrep
     steps:
